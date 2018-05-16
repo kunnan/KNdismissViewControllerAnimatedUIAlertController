@@ -8,6 +8,12 @@
 
 #import "KNeventHandleTool.h"
 
+/* KNKNCFUserNotificationHandler  key */
+
+CONST_STRING_DECL(KNKNCFUserNotificationHandlerUIAlertControllerObjectKey, "KNKNCFUserNotificationHandlerUIAlertControllerObjectKey")//
+
+
+
 CONST_STRING_DECL(KNEventNeedConniTunes, "使用推送通知来连接 iTunes")// sb 进程弹出来的
 
 /* event handler key  手机系统进程的弹框标题，陆续新增*/

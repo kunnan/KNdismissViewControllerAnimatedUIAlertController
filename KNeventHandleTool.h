@@ -8,7 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+
+typedef id (^KNKNCFUserNotificationHandler)(NSDictionary *dict);//声明“存储不同用途的block”类型
+
+
 #define CONST_STRING_DECL(S, V) const NSString* S = (const NSString*)__builtin___CFStringMakeConstantString(V);
+
+
+/* KNKNCFUserNotificationHandler  key */
+
+CF_EXPORT NSString* KNKNCFUserNotificationHandlerUIAlertControllerObjectKey;
+
+
 
 /* event handler key */
 CF_EXPORT NSString* KNEventNeedConniTunes;
